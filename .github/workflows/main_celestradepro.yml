@@ -23,7 +23,9 @@ jobs:
 
       - name: Install Angular CLI and dependencies
         run: |
-          npm install 
+           cd celestradepro
+           npm install -g @angular/cli
+           npm install --legacy-peer-deps
        
 
       - name: Build Angular app
