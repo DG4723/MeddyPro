@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: angular-app
-          path: ./meddyPro/www
+          path: ./MeddyPro/www
 
   deploy:
     runs-on: ubuntu-latest
@@ -42,10 +42,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: angular-app
-          path: ./meddyPro/www
+          path: ./MeddyPro/www
 
       - name: List files in the www directory
-        run: ls -R ./meddyPro/www
+        run: ls -R ./MeddyPro/www
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'MeddyPro'
           slot-name: 'Production'
-          package:  ./meddyPro/www
+          package:  ./MeddyPro/www
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_858F4A14A2E744F285EC2BA350C09106 }}
