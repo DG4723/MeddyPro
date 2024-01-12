@@ -1,9 +1,0 @@
-<div class="commodity-container">
-  <h2>Commodity Chart</h2>
-  <div>
-    <label *ngFor="let symbol of symbols">
-      <input type="checkbox" [(ngModel)]="symbol.checked" (change)="updateChart()" /> {{ symbol.name }}
-    </label>
-  </div>
-  <canvas #commodityChart></canvas>
-</div>

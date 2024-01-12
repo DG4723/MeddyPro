@@ -1,5 +1,0 @@
-_id,country,currency,estimateCurrency,exchange,finnhubIndustry,ipo,logo,marketCapitalization,name,phone,shareOutstanding,ticker,weburl
-6440ac72a89e5d1728c16567,US,USD,USD,NASDAQ NMS - GLOBAL MARKET,Technology,1980-12-12,https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.svg,2652232.875883895,Apple Inc,14089961010.0,15821.9,AAPL,https://www.apple.com/
-6440ac72a89e5d1728c16568,US,USD,USD,NASDAQ NMS - GLOBAL MARKET,Media,2004-08-19,https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.svg,1337922.1057083115,Alphabet Inc,16502530000.0,12807,GOOGL,https://abc.xyz/
-6440ac72a89e5d1728c16569,US,USD,USD,NASDAQ NMS - GLOBAL MARKET,Automobiles,2010-06-09,https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.svg,571405.3140494045,Tesla Inc,15125168177.0,3164.1,TSLA,https://www.tesla.com/
-6440ac72a89e5d1728c1656a,US,USD,USD,NASDAQ NMS - GLOBAL MARKET,Technology,1986-03-13,https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.svg,2147165.1440627915,Microsoft Corp,14258828080.0,7443.8,MSFT,https://www.microsoft.com/en-us
