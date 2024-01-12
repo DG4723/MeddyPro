@@ -1,0 +1,127 @@
+<ion-header>
+  <ion-toolbar id="toolbar">
+    <ion-buttons>
+     <ion-icon name="chevron-back-outline" routerLink="/list" id="btn"></ion-icon>
+    <ion-title id="title">Patient Details</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card >
+
+    <ion-avatar ><img [src]="MeddyDocs.imgurl || '' "></ion-avatar>
+
+    <ion-col>
+    <ion-label>
+        <h3>{{MeddyDocs.name}}</h3>
+        <h3>{{MeddyDocs.designation}}</h3>
+
+    </ion-label>
+    </ion-col>
+
+    <ion-card>
+      <ion-col>
+    <ion-button href="{{url}}" color="success">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+      <p>Chat</p>
+    </ion-button>
+    </ion-col>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" meddypatientForm" (ngSubmit)="onSubmit()">
+
+    <h4 id="add">Appointment date</h4>
+    <ion-item >
+      <ion-label position="floating"></ion-label>
+      <ion-input formControlName="date" type="date" required></ion-input>
+    </ion-item>
+  </form>
+</ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-card>
+      <ion-list lines="full">
+        <form [formGroup]=" meddypatientForm" (ngSubmit)="onSubmit()">
+
+      <h4 id="add">Appointment time</h4>
+      <ion-item >
+        <ion-label position="floating"></ion-label>
+        <ion-input formControlName="time" type="time" required></ion-input>
+      </ion-item>
+    </form>
+  </ion-list>
+    </ion-card>
+
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" meddypatientForm" (ngSubmit)="onSubmit()">
+
+        <h4 id="add">Patient</h4>
+        <ion-item>
+          <ion-label position="floating">Patient Name</ion-label>
+          <ion-input formControlName="name" type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Age</ion-label>
+          <ion-input formControlName="age" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Gender</ion-label>
+          <ion-input formControlName="gender" type="text" required>
+          </ion-input>
+          <div>
+            <input  id="male" type="radio" value="Male" color="secondary" name="gender"
+             formControlName="gender" />
+            <label id="male" class="custom-control-label" for="male">Male</label>
+          </div>
+          <div>
+            <input  id="female" type="radio" color="secondary" value="Female" name="gender"
+             formControlName="gender" />
+            <label id="female" class="custom-control-label" for="female">Female</label>
+          </div>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Address</ion-label>
+          <ion-input formControlName="address" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Contact No</ion-label>
+          <ion-input formControlName="contact" type="text" required>
+          </ion-input>
+        </ion-item>
+    </form>
+    </ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" meddypatientForm" (ngSubmit)="onSubmit()">
+
+    <h4 id="add">Payment Details</h4>
+    <ion-item >
+      <ion-label>Appointment Fee</ion-label>
+      <h3> {{MeddyDocs.fee}}</h3>
+    </ion-item>
+  </form>
+</ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" meddypatientForm" (ngSubmit)="onSubmit()">
+  <ion-row>
+    <ion-col>
+      <ion-button type="submit" color="secondary" expand="block" routerLink="/patient-details">Book Now</ion-button>
+    </ion-col>
+  </ion-row>
+ </form>
+</ion-list>
+
+</ion-card>
+

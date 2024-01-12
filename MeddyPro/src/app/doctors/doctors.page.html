@@ -1,0 +1,64 @@
+<ion-header>
+    <ion-toolbar color="secondary">
+        <ion-buttons>
+            <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+            <ion-title>Profile</ion-title>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="M1">
+
+
+  <ion-list>
+    <ion-item *ngFor="let docreg of docregs">
+        <img src="./assets/doctor-logo-49381.png">
+        <ion-label class="s1">
+            <h1>{{docreg.name}}</h1>
+            <h3>Mobile NO: {{docreg.mobileno}}</h3>
+            <h3>Address: {{docreg.city}}, {{docreg.state}}.</h3>
+            <h3>
+                Timing:
+                <div>
+                    <form [formGroup]="editForm" (ngSubmit)="saveAppointment(docreg)">
+                        <div>
+                        <ion-item>
+                            
+                        <ion-input type="time" formControlName="stime" required></ion-input>
+                         
+                        </ion-item>
+                        <ion-item>
+                           
+                            <ion-input type="time"  formControlName="etime" required></ion-input>
+                        </ion-item>
+
+                        <ion-button type="submit">Save</ion-button>
+                        </div>
+                    </form>
+                </div>
+                
+            </h3>
+        </ion-label>
+    </ion-item>
+    
+
+            <div class="appointment-box">
+                <p>Appointment Schedules</p>
+            </div>
+ 
+           
+
+             <ion-item *ngFor="let petform of petforms">
+                <img src="./assets/pet.png">
+                    <ion-label class="s2">
+                        <h2 style="font-weight: bold;">Name : {{petform.name}}</h2>
+                        <h3>Mobile NO : {{petform.contact}}</h3>
+                        <h3>Address : {{petform.address}}.</h3>
+                        <h3>Appointment :  {{petform.time}} , {{petform.date}}</h3>
+                    </ion-label>
+                <ion-button  (click)="completeAppointment(petform)">Complete</ion-button>
+            </ion-item>
+                
+</ion-list>
+   <ion-button routerLink="/complet-appoint">next</ion-button>
+</ion-content>

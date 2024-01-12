@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" color="secondary"></ion-back-button>
+    <ion-title>General Physician</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-searchbar type="text" class="form-control" placeholder="Search..."
+                                              [(ngModel)]="filterTerm" ></ion-searchbar>
+
+    <ion-list>
+    <ion-card>
+    <ion-item *ngFor="let meddylab of MeddyLab  ">
+      <ion-card-header id="img"><img [src]="meddylab.imgurl || '' "></ion-card-header>
+      <ion-label>
+        <h2>{{meddylab.name}}</h2>
+        <h2>{{meddylab.age}}</h2>
+        <h2>{{meddylab.gender}}</h2>
+        <h2>{{meddylab.date}}</h2>
+      </ion-label>
+
+    </ion-item>
+  </ion-card>
+    </ion-list>
+</ion-content>

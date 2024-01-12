@@ -1,0 +1,126 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+      <ion-title>Registration form</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <div class="as">
+    <ion-list lines="full">
+      <form [formGroup]="docregForm" (ngSubmit)="onSubmit()">
+        <ion-item>
+          <ion-label position="floating">Name</ion-label>
+          <ion-input formControlName="name" type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Age</ion-label>
+          <ion-input formControlName="age" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Gender</ion-label>
+          <ion-select formControlName="gender" label="user" label-placement="floating" fill="solid">
+            <ion-select-option value="male">Male</ion-select-option>
+            <ion-select-option value="female">Female</ion-select-option>
+          </ion-select>
+
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Mobile No</ion-label>
+          <ion-input formControlName="mobileno" type="text" required>
+          </ion-input>
+        </ion-item>
+
+
+        <ion-item>
+          <ion-label position="floating">City</ion-label>
+          <ion-select formControlName="city">
+            <ion-select-option value="Ariyalur">Ariyalur</ion-select-option>
+            <ion-select-option value="Chengalpattu">Chengalpattu</ion-select-option>
+            <ion-select-option value="Chennai">Chennai</ion-select-option>
+            <ion-select-option value="Coimbatore">Coimbatore</ion-select-option>
+            <ion-select-option value="Cuddalore">Cuddalore</ion-select-option>
+            <ion-select-option value="Dharmapuri">Dharmapuri</ion-select-option>
+            <ion-select-option value="Dindigul">Dindigul</ion-select-option>
+            <ion-select-option value="Erode">Erode</ion-select-option>
+            <ion-select-option value="Kallakurichi">Kallakurichi</ion-select-option>
+            <ion-select-option value="Kanchipuram">Kanchipuram</ion-select-option>
+            <ion-select-option value="Kanyakumari">Kanyakumari</ion-select-option>
+            <ion-select-option value="Karur">Karur</ion-select-option>
+            <ion-select-option value="Krishnagiri">Krishnagiri</ion-select-option>
+            <ion-select-option value="Madurai">Madurai</ion-select-option>
+            <ion-select-option value="Nagapattinam">Nagapattinam</ion-select-option>
+            <ion-select-option value="Namakkal">Namakkal</ion-select-option>
+            <ion-select-option value="Nilgiris">Nilgiris</ion-select-option>
+            <ion-select-option value="Perambalur">Perambalur</ion-select-option>
+            <ion-select-option value="Pudukkottai">Pudukkottai</ion-select-option>
+            <ion-select-option value="Ramanathapuram">Ramanathapuram</ion-select-option>
+            <ion-select-option value="Salem">Salem</ion-select-option>
+            <ion-select-option value="Sivaganga">Sivaganga</ion-select-option>
+            <ion-select-option value="Tenkasi">Tenkasi</ion-select-option>
+            <ion-select-option value="Thanjavur">Thanjavur</ion-select-option>
+            <ion-select-option value="Theni">Theni</ion-select-option>
+            <ion-select-option value="Thiruvallur">Thiruvallur</ion-select-option>
+            <ion-select-option value="Thiruvarur">Thiruvarur</ion-select-option>
+            <ion-select-option value="Thoothukudi">Thoothukudi</ion-select-option>
+            <ion-select-option value="Tiruchirappalli">Tiruchirappalli</ion-select-option>
+            <ion-select-option value="Tirunelveli">Tirunelveli</ion-select-option>
+            <ion-select-option value="Tirupathur">Tirupathur</ion-select-option>
+            <ion-select-option value="Tiruppur">Tiruppur</ion-select-option>
+            <ion-select-option value="Tiruvannamalai">Tiruvannamalai</ion-select-option>
+            <ion-select-option value="Vellore">Vellore</ion-select-option>
+            <ion-select-option value="Viluppuram">Viluppuram</ion-select-option>
+            <ion-select-option value="Virudhunagar">Virudhunagar</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">State</ion-label>
+          <ion-input formControlName="state" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">User</ion-label>
+          <ion-select formControlName="user" label="user" label-placement="floating" fill="solid">
+            <ion-select-option value="doctor">Doctor</ion-select-option>
+            <ion-select-option value="customer">Customer</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item *ngIf="docregForm.get('user')?.value === 'doctor'">
+          <ion-label position="floating">Specialist</ion-label>
+          <ion-select formControlName="specialist">
+            <ion-select-option value="human">Physician</ion-select-option>
+            <ion-select-option value="Veterinary">Veterinary Doctor</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item *ngIf="docregForm.get('user')?.value === 'doctor'">
+          <h3>Time Availability</h3>
+          <ion-label position="floating">Start Time</ion-label>
+          <ion-input formControlName="stime" type="time" required></ion-input>
+          <ion-label position="floating">End Time</ion-label>
+          <ion-input formControlName="etime" type="time" required></ion-input>
+
+        </ion-item>
+
+        <ion-row>
+          <ion-col>
+            <ion-button type="submit" color="secondary">Submit</ion-button>
+          </ion-col>
+        </ion-row>
+      </form>
+    </ion-list>
+    </div>
+  </ion-card>
+</ion-content>
+
+

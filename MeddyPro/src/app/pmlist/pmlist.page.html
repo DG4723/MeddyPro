@@ -1,0 +1,34 @@
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <title>Ionic Template</title>
+
+  <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+  <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+</head>
+
+<body ng-controller="MyCtrl as ctrl">
+
+  <ion-content>
+    
+    <div class="row header">
+      <div class="col">Genericname</div>
+      <div class="col">Dosageform</div>
+      <div class="col">Volume</div>
+      <div class="col">Unitofvolume</div>
+      <div class="col">Storageconditions</div>
+      <div class="col">Targetanimals</div>
+    </div>
+    <div class="row"  *ngFor="let vetmed of vetmeds" >
+      <div class="col">{{vetmed.Genericname}}</div>
+      <div class="col">{{vetmed.Dosageform}}</div>
+      <div class="col">{{vetmed.Volume}}</div>
+      <div class="col">{{vetmed.Unitofvolume}}</div>
+      <div class="col">{{vetmed.Storageconditions}}</div>
+      <div class="col">{{vetmed.Targetanimals}}</div>
+    </div>
+ 
+  </ion-content>
+</body>

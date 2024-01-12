@@ -1,0 +1,72 @@
+#title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color: rgb(44, 12, 223);
+  margin-top: 15px;
+  font-weight: bold;
+}
+ion-avatar{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#toolbar{
+  height: 65px;
+}
+#cat{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: rgb(44, 12, 223);
+  font-weight: bold;
+}
+ion-content{
+ --background:rgba(144, 238, 144, 0.37);
+}
+#img1{
+  margin-top: 10px;
+  border-radius: 25px;
+}
+h1{
+  margin-left: 20px;
+  color: rgb(44, 12, 223);
+  margin-top: 30px;
+  font-size: xx-large;
+}
+h3{
+  color: black;
+}
+h5{
+  color: black;
+}
+
+
+.card2{
+    height: 150px;
+    border-radius: 10%;
+    img{
+      height: 100px;
+      width: 150px;
+    }
+    h3{
+        margin-top: auto;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+  }
+  .card3{
+    height: 150px;
+    border-radius: 10%;
+    img{
+      height: 100px;
+      width: 150px;
+       }
+      h4{
+          margin-top: auto;
+          text-align: center;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: black;
+      }
+    }
+

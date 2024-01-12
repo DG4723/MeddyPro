@@ -1,0 +1,19 @@
+h1{
+    text-align:center;
+}
+.tool{
+    --background: deepskyblue;
+}
+.c1{
+    position: absolute;
+    margin-left: 120px;
+    font-size: larger;
+}
+ion-content{
+    --background: rgb(99, 99, 236);
+    --background: url(../../assets/med.jpg) no-repeat center/cover fixed;
+  }
+h2{
+    color: black;
+    text-align: center;
+}

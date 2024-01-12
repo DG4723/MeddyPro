@@ -1,0 +1,60 @@
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        background: #fff;
+        padding: 20px;
+        margin: 0 auto;
+        box-sizing: 0 0 5px rgba(0, 0, 0.5);
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+}
+
+
+.container h2 {
+    margin-bottom: 10px;
+    
+    letter-spacing: 1px;
+}
+
+
+
+ion-content {
+    --ion-background-color: rgba(144, 238, 144, 0.37);
+    /* Set your desired background color */
+}
+
+
+label {
+    display: inline-block;
+    margin-top: 15px;
+    color: black;
+    width: 25%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.mb-3{
+    display: flex;
+        justify-content: center;
+}
+
+
+
+input{
+    width: 60%;
+}
+
+.contain {
+    text-align: center;
+    
+}
+
+/* If using a class */
+.centered-button {
+    display: inline-block;
+    width: 10%;
+    /* Ensures it respects text-align */
+}

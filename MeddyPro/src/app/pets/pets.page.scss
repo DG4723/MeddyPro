@@ -1,0 +1,15 @@
+.tool{
+    --background: #42c3fad3;
+    color: white;
+    font-size: larger;
+}
+ion-card{
+    height: 150px;
+    width: 150px;
+}
+h3{
+    color:rgb(28, 83, 185);
+}
+ion-content {
+    --background: url(../../assets/med.jpg) no-repeat center/cover fixed;
+  }

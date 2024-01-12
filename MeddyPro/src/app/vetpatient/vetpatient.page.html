@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons>
+      <ion-back-button defaultHref="/lis" color="secondary"></ion-back-button>
+    <ion-title>Vetpatients</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<<<<<<< Updated upstream
+  <ion-card *ngFor="let user of Users">
+=======
+  <ion-item *ngFor="let Users of Users">
+    <ion-label>
+>>>>>>> Stashed changes
+      <h2 id="title">DOCTOR PRESCRIPTION</h2><br>
+      <h3>{{Users.name}}</h3>
+      <h3>{{Users.address}}</h3>
+      <h3>{{Users.contact}}</h3>
+  </ion-card>
+  
+<<<<<<< Updated upstream
+  <ion-card-title *ngFor="let vetpatient of vetpatients">
+      <h3>{{vetpatient.gender}}</h3><br>
+      <h3>{{vetpatient.type}}</h3><br>
+      <h3>{{vetpatient.date}}</h3><br>
+=======
+  <ion-item *ngFor="let vetpatient of vetpatient">
+    
+      
+      
+      
+      <h3>{{vetpatient.gender}}</h3>
+      <h3>{{vetpatient.type}}</h3>
+      
+      
+      <h3>{{vetpatient.date}}</h3>
+>>>>>>> Stashed changes
+      <h3>{{vetpatient.time}}</h3>
+  </ion-card-title>
+
+  <ion-row>
+    <ion-col>
+      <ion-button type="submit" color="secondary" expand="block" routerLink="/payment">Pay Now</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>

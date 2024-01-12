@@ -1,0 +1,67 @@
+
+
+   [
+        {
+           
+
+            "id": "1",
+            "name": "Augmentin 625 duo tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"        
+        },
+        {
+            "id": "2",
+            "name": "Allegra 120mg Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20" 
+        },
+        {
+            "id": "3",
+            "name": "Atarax 25mg tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "4",
+            "name": "Ascoril LS Syrup",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "5",
+            "name": "Azithral 500 Tablet",
+            "price": "100 Rs",
+            "date":"22/2/20" 
+        },
+        {
+            "id": "6",
+            "name": "Acioc 150 Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "7",
+            "name": "Avil 25 Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "8",
+            "name": "Amoxyclav 25 Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "9",
+            "name": "Avil 25 Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20"  
+        },
+        {
+            "id": "10",
+            "name": "Avomine Tablet",
+            "price": "90 Rs",
+            "date":"22/2/20" 
+        }
+       
+    ]

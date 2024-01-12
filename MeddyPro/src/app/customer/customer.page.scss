@@ -1,0 +1,56 @@
+h1 {
+    display: flex;
+}
+
+img {
+    margin-top: 5px;
+    border-radius: 25px;
+    width: 25%;
+    height: 3cm;
+    background: url('/assets/doctor-logo-49381.png');
+    background-size: cover;
+    background: var(--background);
+
+
+}
+
+.s1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 2px;
+    margin-left: 0.5cm;
+}
+
+
+
+p {
+    font-size: 25px;
+
+}
+
+.s2 {
+    font-weight: bold;
+    margin-top: 0cm;
+    margin-left: 0.5cm;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.appointment-box {
+    background-color: #00c2ff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+
+    /* Additional styling */
+}
+
+.appointment-box p {
+    color: white;
+    /* Change text color to white for better visibility */
+    margin: 0;
+    /* Remove default margin */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1cm;
+}

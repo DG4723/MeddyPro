@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" style=color:white></ion-back-button>
+      <ion-title>VetDoctors List</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+  <ion-searchbar type="text" class="form-control" placeholder="Search..." [(ngModel)]="filterTerm"></ion-searchbar>
+  
+  <ion-list>
+    <ion-item *ngFor="let docreg of docregs  | filter: filterTerm">
+      <ion-label>
+        <h2>Name : {{docreg.name}}</h2>
+        <h3>Id No : {{docreg.user_id}}</h3>
+        <h3>Age : {{docreg.age}}</h3>
+        <h3>Availibity Time : {{docreg.stime}} to {{docreg.etime}}</h3>
+        <h3>Mobile NO : {{docreg.mobileno}}</h3>
+        <h3>Address : {{docreg.city}}, {{docreg.state}}</h3>
+      </ion-label>
+
+      <ion-button (click)="goToPetForm(docreg.user_id)" type="submit" color="secondary" expand="block" routerLink="/petform">Book Now</ion-button>
+
+    </ion-item>
+  </ion-list>
+  </ion-card>
+</ion-content>

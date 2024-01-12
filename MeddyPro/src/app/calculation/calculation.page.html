@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>calculation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <body ng-controller="myController">
+    <div class="container py-3">
+        <h4 class="text-center text-uppercase">How to calculate Shopping Card in Angular js</h4>
+        <table class="table table-bordered">
+            <thead class="bg-danger text-white text-upparcase">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng:repeat="item in invoice.items">
+                    <td>
+                        <input type="text" ng:model="item.description" class="form-control">
+                    </td>
+                    <td>
+                        <input type="number" min="1" ng:model="item.qty" ng:required class="form-control">
+                    </td>
+                    <td>
+                        <input type="number" min="1" ng:model="item.cost" ng:required class="form-control">
+                    </td>
+                    <td>{{item.qty * item.cost | currency:'₹'}}</td>
+                    <td>
+                        <a href ng:click="removeItem($index)" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href ng:click="addItem()" class="btn btn-sm btn-primary rounded-0">Add Product</a></td>
+                    <td></td>
+                    <td>Total:</td>
+                    <td>{{total() | currency:'₹'}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</ion-content>

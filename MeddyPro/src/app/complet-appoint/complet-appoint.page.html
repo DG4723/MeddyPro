@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons>
+      <ion-back-button defaultHref="/doctors"></ion-back-button>
+      <ion-title>Profile</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let petform of petforms">
+    <img src="./assets/pet.png">
+    <ion-label class="s2">
+      <h2 style="font-weight: bold;">Name : {{petform.name}}</h2>
+      <h3>Mobile NO : {{petform.contact}}</h3>
+      <h3>Address : {{petform.address}}.</h3>
+      <h3>Appointment : {{petform.time}} , {{petform.date}}</h3>
+    </ion-label>
+    <ion-button color="success">Complete</ion-button>
+  </ion-item>
+</ion-content>

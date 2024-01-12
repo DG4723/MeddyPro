@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar id="toolbar">
+    <ion-title id="title">
+      Payment
+    </ion-title>
+    <ion-button id="button" size="small" slot="end" [routerLink]="['/tabs/tab3']">
+      Home <ion-icon name="home"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+  <img src="./assets/payment.png" class="img-responsive " id="img1">
+  <ion-col size="12">
+  <ion-button  (click)="upi()" id="pay">
+      Pay Via UPI
+    </ion-button>
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,42 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+   <ion-buttons>
+     <ion-back-button defaultHref=""></ion-back-button>
+   </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <h1>Register</h1>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Address</ion-label>
+      <ion-input type="address" required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-checkbox></ion-checkbox>
+        <p>I agree to Terms & Conditions , and to MeddyPro use of my information in
+          accordance with its Privacy Policy</p>
+          <ion-button type="submit" color="danger" expand="block">Register</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>
+
+

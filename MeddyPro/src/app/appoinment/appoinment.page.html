@@ -1,0 +1,52 @@
+
+<ion-header >
+  <ion-toolbar color="secondary">
+   <ion-buttons>
+     <ion-back-button defaultHref="/tabs/tab3"></ion-back-button>
+      <ion-title>Appointment</ion-title>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="meddylabForm" (ngSubmit)="onSubmit()">
+      <ion-item>
+        <ion-label position="floating">Patient Name</ion-label>
+        <ion-input formControlName="aname" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Age</ion-label>
+        <ion-input formControlName="age" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Gender</ion-label>
+        <ion-input formControlName="gender" type="text" required>
+        </ion-input>
+        <div>
+          <input  id="male" type="radio" value="Male" color="secondary" name="gender"
+           formControlName="gender" />
+          <label id="male" class="custom-control-label" for="male">Male</label>
+        </div>
+        <div>
+          <input  id="female" type="radio" color="secondary" value="Female" name="gender"
+           formControlName="gender" />
+          <label id="female" class="custom-control-label" for="female">Female</label>
+        </div>
+      </ion-item>
+
+      <ion-item >
+      <ion-label position="floating">Appoiment date</ion-label><br>
+      <ion-input formControlName="date" type="date" required></ion-input>
+    </ion-item>
+      <ion-row>
+        <ion-col>
+          <ion-button  type="submit" color="secondary" expand="block" routerLink="/appoint">Book Now</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>

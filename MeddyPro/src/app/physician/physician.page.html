@@ -1,0 +1,127 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" color="danger"></ion-back-button>
+    <ion-title>General Physician</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+      <ion-item>
+            <ion-datetime min="2022" max={{currentDate}} displayFormat= "DD/MM/YYYY  h:mm A"
+              [(ngModel)]="chosenDate"></ion-datetime>
+            </ion-item>
+            <p> Current date is {{currentDate}}</p>
+            <p> Chosen date is {{chosenDate}}</p>
+
+            <ion-grid>
+              <ion-row>
+            <div class="app-time">
+              <div>
+                <p>Timings</p>
+                <p>9:00AM to 12:00PM</p>
+
+                <div class="app-check">
+                  <input type="radio" class="option-input radio" name="example" />
+
+                <ion-col>
+                  <div class="app-border">
+
+                    <label class="app-label">9:00 AM
+                    </label>
+                  </div>
+                </ion-col>
+                  <input type="radio" class="option-input radio" disabled name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">9:30 AM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" disabled />
+                  <div class="app-border">
+
+                    <label class="app-label">10:00 AM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">10:30 AM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">11:00 AM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" disabled />
+                  <div class="app-border">
+
+                    <label class="app-label">11:30 AM
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>Timings</p>
+                <p>1:00PM to 5:00PM</p>
+                <div class="app-check">
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">1:00 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">1:30 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">2:00 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">2:30 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">3:00 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">3:30 PM
+                    </label>
+                  </div>
+                  <input type="radio" class="option-input radio" name="example" />
+                  <div class="app-border">
+
+                    <label class="app-label">4:00 PM
+                    </label>
+                  </div>
+
+                  <input type="radio" class="option-input radio" name="example"  />
+                  <div class="app-border">
+
+                    <label class="app-label">4:30 PM
+                    </label>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </ion-row>
+          </ion-grid>
+</ion-content>

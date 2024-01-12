@@ -1,0 +1,144 @@
+<ion-header>
+  <ion-toolbar id="toolbar" color="secondary">
+    <ion-buttons>
+     <ion-icon name="chevron-back-outline" routerLink="/lis" id="btn"></ion-icon>
+    <ion-title id="title">Patient Details</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  
+  <ion-card >
+     <ion-row>
+    <ion-label>
+        <h3>{{Vetdocs.regno}} ,{{Vetdocs.name}}</h3>
+        <h3>{{Vetdocs.address}}</h3>
+        <h3>{{Vetdocs.qualification}}</h3>
+    </ion-label>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" vetpatientForm" (ngSubmit)="onSubmit()">
+
+    <h4 id="add">Appointment date</h4>
+    <ion-item >
+      <ion-label position="floating">date</ion-label><br>
+      <ion-input formControlName="date" type="date" required></ion-input>
+    </ion-item>
+  </form>
+</ion-list>
+  </ion-card>
+  
+    <ion-card>
+      <ion-list lines="full">
+        <form [formGroup]=" vetpatientForm" (ngSubmit)="onSubmit()">
+
+      <h4 id="add">Appointment time</h4>
+      <ion-item >
+        <ion-label position="floating"></ion-label>
+        <ion-input formControlName="time" type="time" required></ion-input>
+      </ion-item>
+    </form>
+  </ion-list>
+    </ion-card>
+
+  <ion-card >
+    <ion-list lines="full" id="ft">
+      <form [formGroup]=" vetpatientForm" (ngSubmit)="onSubmit()" *ngFor="let Users of Users">
+
+        <h4 id="add"><center>Details</center></h4>
+        <ion-item>
+          <ion-label position="floating">PetOwner name:{{Users.name}}</ion-label>
+          
+          <ion-input formControlName="name" type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Age:{{Users.age}}</ion-label>
+        
+          <ion-input formControlName="age" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Gender</ion-label>
+          <ion-input formControlName="gender" type="text" required>
+          </ion-input>
+          <div>
+            <input  id="male" type="radio" value="Male" color="secondary" name="gender"
+             formControlName="gender" />
+            <label id="male" class="custom-control-label" for="male">Male</label>
+          </div><br>
+          <div>
+            <input  id="female" type="radio" color="secondary" value="Female" name="gender"
+             formControlName="gender" />
+            <label id="female" class="custom-control-label" for="female">Female</label>
+          </div>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">type</ion-label>
+          <ion-input formControlName="gender" type="text" required>
+          </ion-input>
+          <div>
+            <input  id="cow" type="radio" value="cow" color="secondary" name="type"
+             formControlName="type" />
+            <label id="cow" class="custom-control-label" for="cow">cow</label>
+          </div><br>
+          <div>
+            <input  id="dog" type="radio" color="secondary" value="dog" name="type"
+             formControlName="type" />
+            <label id="dog" class="custom-control-label" for="dog">dog</label>
+          </div><br>
+          <div>
+            <input  id="cat" type="radio" color="secondary" value="cat" name="type"
+             formControlName="type" />
+            <label id="cat" class="custom-control-label" for="cat">cat</label>
+          </div><br>
+        </ion-item>
+
+
+
+        <ion-item>
+          <ion-label position="floating">Address:{{Users.address}}</ion-label>
+          
+          <ion-input formControlName="address" type="text" required>
+          </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Contact No:{{Users.contact}}</ion-label>
+          
+          <ion-input formControlName="contact" type="text" required>
+          </ion-input>
+        </ion-item>
+    </form>
+    </ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" vetpatientForm" (ngSubmit)="onSubmit()">
+
+    <h4 id="add">Payment Details</h4>
+    <ion-item >
+      <ion-label>Appointment Fee</ion-label>
+      <h3>{{Vetdocs.fees}}</h3>
+
+    </ion-item>
+  </form>
+</ion-list>
+  </ion-card>
+  <ion-card>
+    <ion-list lines="full">
+      <form [formGroup]=" vetpatientForm" (ngSubmit)="onSubmit()">
+  <ion-row>
+    <ion-col>
+      <ion-button type="submit" color="secondary" expand="block" routerLink="/vetpatient">Book Now</ion-button>
+    </ion-col>
+  </ion-row>
+ </form>
+</ion-list>
+</ion-card>
+</ion-content>

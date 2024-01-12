@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs\tab1" color="secondary"></ion-back-button>
+    <ion-title>Patient Form</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+      <h4 id="add"><center>USER DETAILS</center></h4>
+      
+      <ion-item>
+        <ion-label position="floating">Name</ion-label>
+        <ion-input formControlName="name" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Age</ion-label>
+        <ion-input formControlName="age" type="text" required>
+        </ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-input formControlName="address" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contact No</ion-label>
+        <ion-input formControlName="contact" type="text" required>
+        </ion-input>
+        </ion-item>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="secondary" expand="block" >SAVE</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>

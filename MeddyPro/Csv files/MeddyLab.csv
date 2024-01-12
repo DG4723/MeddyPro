@@ -1,0 +1,322 @@
+Code,Distict,Laboratories,SNo,_id
+G26,Krishnagiri,"Institute of Vector Control & Zoonoses, Hosur",26,62c295d52b962729a594f0ec
+G27,The Nilgris,"Pasteur Institute of India, Coonoor",27,62c295d52b962729a594f0ed
+G28,Cuddalore,"Rajah Muthiah Medical College, Chidambaram",28,62c295d52b962729a594f0ee
+G29,Karur,"Government Medical College, Karur",29,62c295d52b962729a594f0ef
+G30,Thiruvannamalai,"Govt. Tiruvannamalai Medical College & Hospital, Tiruvannamalai",30,62c295d52b962729a594f0f0
+G31,Chengalpattu,"Chengalpet Govt.Medical College, Kancheepuram",31,62c295d52b962729a594f0f1
+G32,Pudukottai,"Govt.Medical College & Hospital, Pudukottai",32,62c295d52b962729a594f0f2
+G33,Sivagangai,"Govt.Medical College, Sivagangai",33,62c295d52b962729a594f0f3
+G34,Virudhunagar,"Government Medical College, Virudhunagar",34,62c295d52b962729a594f0f4
+G35,Ramanathapuram,"Govt.Dist.HQ.Hospital, Ramanathapuram",35,62c295d52b962729a594f0f5
+G36,Ariyalur,"Government District Heaquarters Hospital, Ariyalur",36,62c295d52b962729a594f0f6
+G37,Thiruppur,"Government District Headquarters Hospital, Tiruppur",37,62c295d52b962729a594f0f7
+G38,Kallakurichi,"Government Kallakruichi Hospital, Kallakurichi",38,62c295d52b962729a594f0f8
+G39,Thiruvallur,"Government District Headquarters Hospital, Thiruvallur",39,62c295d52b962729a594f0f9
+G40,Namakkal,"Government District Headquarters Hospital,Namakkal",40,62c295d52b962729a594f0fa
+G41,Chennai,"*Central Leather Research Institute, Adyar, Chennai",41,62c295d52b962729a594f0fb
+G42,Dindigul,"Government Headquarters Hospital, Dindigul",42,62c295d52b962729a594f0fc
+G43,Chennai,"C.D Hospital, Greater Chennai Corporation, Chennai",43,62c295d52b962729a594f0fd
+G44,Nagapattinam,"Government District Head Quarters Hospital, Nagapattinam",44,62c295d52b962729a594f0fe
+G45,Chengalpattu,"Government Hospital of Thoracic Medicine, Tambaram Sanatorium, Chennai",45,62c295d52b962729a594f0ff
+G46,Thirupathur,"Government Hospital, Tirupattur",46,62c295d52b962729a594f100
+G47,Krishnagiri,"Government Head Quarters Hospital, Krishnagiri",47,62c295d52b962729a594f101
+G48,Namakkal,"Government Hospital,  Tiruchengodu, Namakkal District",48,62c295d52b962729a594f102
+G49,Sivagangai,"Government District Head Quarters Hospital, Karaikudi Sivaganga District",49,62c295d52b962729a594f103
+G50,Kanyakumari,"Government Hospital, Padmanabapuram, Kannyakumari District",50,62c295d52b962729a594f104
+G51,Dharampuri,"Government Hospital, Harur, Dharmapuri District",51,62c295d52b962729a594f105
+G52,Erode,"Government Headquarters Hospital, Erode District",52,62c295d52b962729a594f106
+G53,Perambalur,"District Head Quarters Hospital, Perambalur District",53,62c295d52b962729a594f107
+G54,The Nilgris,"Government  Head  Quarters  Hospital, Ooty",54,62c295d52b962729a594f108
+G55,Salem,"Govt. Head Quarters Hospital, Mettur Dam, Salem",55,62c295d52b962729a594f109
+G56,Tenkasi,"Government Head Quarters Hospital, Tenkasi.",56,62c295d52b962729a594f10a
+G57,Thiruvannamalai,"Government Headquarters Hospital,Cheyyar, Tiruvannamalai",57,62c295d52b962729a594f10b
+G58,Villupuram,"Government Hospital,Tindivanam, Tamil Nadu",58,62c295d52b962729a594f10c
+G59,Ranipet,"District Public Health Laboratory, Walajapet",59,62c295d52b962729a594f10d
+G60,Pudukottai,"Government Hospital, Aranthangi, Pudukkottai",60,62c295d52b962729a594f10e
+G61,Kancheepuram,"Government Head Quarters Hospital, Kanchipuram",61,62c295d52b962729a594f10f
+G62,Salem,"Government Hospital, Attur, Salem District",62,62c295d52b962729a594f110
+G63,Cuddalore,"Government Head Quarters Hospital, Cuddalore",63,62c295d52b962729a594f111
+G64,Madurai,"Government District Head Quarters Hospital, Usilampatti, Madurai",64,62c295d52b962729a594f112
+G65,Chennai,"ESIC Medical College & PGIMSR, K K Nagar, Chennai",65,62c295d52b962729a594f113
+G66,Nagapattinam,"Government Head Quarters Hospital, Mayiladuthurai",66,62c295d52b962729a594f114
+G67,Chengalpattu,"Military Hospital, Chennai",67,62c295d52b962729a594f115
+G68,Chennai,"Southern Railway Headquarter Hospital, Chennai",68,62c295d52b962729a594f116
+G69,The Nilgris,"Military Hospital Wellington, Coonoor, Dist. Nilgiris",69,62c295d52b962729a594f117
+P01,Vellore,"Dept. of Clinical Virology, CMC, Vellore",70,62c295d52b962729a594f118
+P02,Chennai,"Apollo Hospitals Enterprise Ltd, Chennai",71,62c295d52b962729a594f119
+P03,Chennai,"Neuberg Ehrlich Lab Pvt Ltd, Chennai",72,62c295d52b962729a594f11a
+P04,Chennai,"Sri Ramachandra Medical College & Research Institute, Chennai",73,62c295d52b962729a594f11b
+P05,Coimbatore,"Microbiology Lab, Veerakeralam Road, Coimbatore",74,62c295d52b962729a594f11c
+P06,Chennai,"YRG CARE, Taramani, Chennai",75,62c295d52b962729a594f11d
+P07,Chennai,"Hitech Diagnostic Centre, Chennai",76,62c295d52b962729a594f11e
+P08,Chennai,"MIOT Hospitals, Chennai",77,62c295d52b962729a594f11f
+P09,Chennai,"Madras Medical Mission, Chennai",78,62c295d52b962729a594f120
+P10,Coimbatore,"PSG Hospitals Diagnostics Centre, Coimbatore",79,62c295d52b962729a594f121
+P11,Chennai,"Medall Healthcare Pvt Ltd, 17, Race View Colony, 2nd street, Race Course
+Road, Guindy, Chennai",80,62c295d52b962729a594f122
+P12,Madurai,"Meenakshi Labs, Madurai",81,62c295d52b962729a594f123
+P13,Chennai,"Metropolis Healthcare Limited, Chennai",82,62c295d52b962729a594f124
+P14,Chengalpattu,"Clinical Lab Services, Dr.Rela Institute, Chennai",83,62c295d52b962729a594f125
+P15,Trichy,"Doctor's Diagonostic Centre , Thiruchirapalli",84,62c295d52b962729a594f126
+P16,Coimbatore,"Molecular Testing, Institute Coimbatore",85,62c295d52b962729a594f127
+P17,Chengalpattu,"Chettinad Hospital and Research Institute, Chengalpattu",86,62c295d52b962729a594f128
+P18,Kancheepuram,"Nu - Med Lab, Kanchipuram",87,62c295d52b962729a594f129
+P19,Coimbatore,"Bio line laboratory, Coimbatore",88,62c295d52b962729a594f12a
+P20,Chennai,"Premier Health Center, Chennai",89,62c295d52b962729a594f12b
+P21,Coimbatore,"Royal Care Super Speciality Hospital, Coimbatore",90,62c295d52b962729a594f12c
+P22,Chennai,"Sundaram Medical Foundation, Chennai",91,62c295d52b962729a594f12d
+P23,Chennai,VRR Dignostics T-Nagar Chennai,92,62c295d52b962729a594f12e
+P24,Coimbatore,"Orbito Asia diagnostics,Coimbatore",93,62c295d52b962729a594f12f
+P25,Madurai,"Apollo Speciality Hospitals,Madurai",94,62c295d52b962729a594f130
+P26,Chengalpattu,"Life cell International Pvt Ltd,Kelambakkam,Chennai",95,62c295d52b962729a594f131
+P27,Kanyakumari,"Vivek Laboratories,Kanniyakumari",96,62c295d52b962729a594f132
+P28,Coimbatore,"Krsnaa Diagnostics, Coimbatore",97,62c295d52b962729a594f133
+P29,Chengalpattu,"Karpaga Vinayaga Institute of Medical Sciences, Madhuranthgam Chengalpet",98,62c295d52b962729a594f134
+P30,Chennai,"VHS Lab Services, VHS Hospital, Rajiv Gandhi Salai, Taramani, Chennai",99,62c295d52b962729a594f135
+P31,Chengalpattu,"Central Laboratory, Sree Balaji Medical College and Hospital, Chennai",100,62c295d52b962729a594f136
+P32,Chennai,"Aarthi Scans and Labs. No 60, 100 feet road, Vadapalani, Chennai",101,62c295d52b962729a594f137
+P33,Chennai,"Balaji Medical Centre, Old No 18,New No 4,Jagadeeswaran Street, T.Nagar,
+Chennai",102,62c295d52b962729a594f138
+P34,Chennai,"Anderson Diagnostics and Labs, Kilpauk, Chennai",103,62c295d52b962729a594f139
+P35,Tirunelveli,"Aarthi Scans and Labs, No. 177(177A/22/1,177A/22/2), Trivandrum Road,
+Vannarpet, Tirunelveli, Tamilnadu",104,62c295d52b962729a594f13a
+P36,Madurai,"Velammal medical College Hospital & RI, Anuppanadi , Madurai",105,62c295d52b962729a594f13b
+P37,Chennai,"PrimeGen Healthcare Laboratories Private Limited, Old no 7, New no 3, Inner ring road, 37th Street, Thillai Ganga Nagar, Nanaganallur, Chennai",106,62c295d52b962729a594f13c
+P38,Chennai,"Suriyaa Diagnostics, 81, Broadway main road, Chennai-600108",107,62c295d52b962729a594f13d
+P39,Kancheepuram,"Meenakshi Medical College Hospital and Research Institute, Kanchipuram",108,62c295d52b962729a594f13e
+P40,Coimbatore,"Laboratory Services, Sri Ramakrishna Hospital, 395, Sarojini Naidu Road,
+Sidhapudur, Coimbatore",109,62c295d52b962729a594f13f
+P41,Madurai,"Endocare Diagnostic Centre, No. 128, East 5th Street, K.K.Nagar, Madurai",110,62c295d52b962729a594f140
+P42,Ranipet,"Microbiology Lab,CSI,Scudder Memorial Hospital, Kelly's Road, Ranipet",111,62c295d52b962729a594f141
+P43,Thanjavur,"Meenakshi Hospital Lab Services, 244/2, Trichy Main Road, Thanjavur",112,62c295d52b962729a594f142
+P44,Chennai,"Aara Clinical Laboratories,Old No 191 New No 251 Hamid
+Building,Annasalai,Chennai",113,62c295d52b962729a594f143
+P45,Madurai,"Bharathi Diagnostics (A unit of Bharathi Hospitals), 95/1, Alagar Kovil Road,
+Madurai",114,62c295d52b962729a594f144
+P46,Chennai,"SRM  Institutes  for  Medical  Sciences  (SIMS Laboratory),No.1,  Jawaharlal
+Nehru  Salai (100 Feet Road), Vadapalani,Chennai",115,62c295d52b962729a594f145
+P47,Salem,"GeneTeqImmuno-Molecular Lab Pvt Ltd, 5/41, First Floor, Gokulam Street,
+Fairlands, Salem",116,62c295d52b962729a594f146
+P48,Chennai,"MGM Healthcare Pvt Ltd, No 72, Nelson Manickam Road, Aminijikarai, Chennai",117,62c295d52b962729a594f147
+P49,Chengalpattu,"Saveetha Medical College and Hospital, Chennai",118,62c295d52b962729a594f148
+P50,Trichy,"Neuberg Ehrlich Laboratory Private Limited, C/O KMC Speciality Hospital (India)
+Limited,Thiruchirapalli",119,62c295d52b962729a594f149
+P51,Trichy,"G. V. N. Hospital Private Limited,# 46, Singarathope, Tiruchirappalli (P)",120,62c295d52b962729a594f14a
+P52,Trichy,"Magnum Imaging & Diagnostics Pvt Ltd,A31, Anna Nagar, Siva Prakash Salai,
+Thennur, Trichy (P)",121,62c295d52b962729a594f14b
+P53,Chennai,"KHM Medical Centre, 291/139, Thambu Chetty Street, PArrys Corner, Chennai",122,62c295d52b962729a594f14c
+P54,Erode,"Sudha Diagnostic Centre, No.162/181, Perundurai Road, Erode.",123,62c295d52b962729a594f14d
+P55,Chennai,"Genelab Biotechnologies Pvt Ltd, Suite 11, Anand Complex, 1/194, E.V.R. Salai,
+Kilpauk, Chennai (P)",124,62c295d52b962729a594f14e
+P56,Madurai,"Laboratory  Services  of  Harshitha  Hospital Pvt Ltd, R.S. 128/1A,B,C,129/3B, Aruppukottai  Main  Road,  Avaniyapuram, Madurai (P)",125,62c295d52b962729a594f14f
+P57,Tirunelveli,"Liberty DIagnostic & Research Centre, 9, Drivers Colony, NGO B Colony,
+Tirunelveli (P)",126,62c295d52b962729a594f150
+P58,Coimbatore,"PathogenixLabs,GrandThe Hub, 1515,Avinashi Road,Coimbatore",127,62c295d52b962729a594f151
+P60,Madurai,"Agam Diagnostics, Ground FLoor, Plot No 17-R-1, 120 Feet Road,Vivekananda
+Nagar, Sambakulam, Madurai",128,62c295d52b962729a594f152
+P61,Trichy,"Department of Microbiology,Trichy SRM Medical College Hospital & Research
+Centre,Tiruchirappalli",129,62c295d52b962729a594f153
+P63,Salem,"Dharan Clinical Lab Services, Dharan Hospital, 14, Byepass, Selva
+Nagar,Chinnusamy Nagar, Seelanaickenpatti, Salem (P)",130,62c295d52b962729a594f154
+P64,Chengalpattu,"Melmaruvathur Adhiparasakthi Institute of Medical Sciences, Melmaruvathur,
+Kanchipuram",131,62c295d52b962729a594f155
+P65,Trichy,"Laboratory  Services,  Assured  Best  Care Hospital (P) Ltd, No #1, Annamalia
+Nagar, Near Karur Bye Pass Road, Trichy (P)",132,62c295d52b962729a594f156
+P66,Salem,"Microbe World (A unit of Sravan Diabetes Care and Research Centre), 350,
+M.G. Road, Newfairlands, Salem (P)",133,62c295d52b962729a594f157
+P67,Chengalpattu,"Micro  Therapeutic  Research  Labs  Pvt  Ltd, Rajam Bhavanam, No 6 Kamarajar
+Salai,Selaiyur, East Tambaram, Chennai",134,62c295d52b962729a594f158
+P68,Chennai,"Billroth Hospitals-Clinical Laboratory Services,Old  No  56  &  57,  New  No  5  &
+7, Fourth Floor,Gajapathy Street,Shenoy Nagar,Chennai",135,62c295d52b962729a594f159
+P69,Salem,"Raos Pathlab,No 62, Udyappa colony , Shankar nagar Main road,Salem",136,62c295d52b962729a594f15a
+P71,Namakkal,"Vivekanandha Medical Care Hospital, Elayampalayam post, Tiruchengodu,
+Namakkal district (P)",137,62c295d52b962729a594f15b
+P72,Thiruvallur,"Panimalar Medical College Hospital & Research Institute, Chennai",138,62c295d52b962729a594f15c
+P73,Perambalur,"Dhanalakshmi  Srinivasan  Medical  College and Hospital, Perambalur",139,62c295d52b962729a594f15d
+P74,Chennai,"Cancer Institute WIA, Adyar, Chennai",140,62c295d52b962729a594f15e
+P75,Thanjavur,"Aarthi scans & Labs (Unit of Aarthi scans private limited), 22/1 Puthukottai
+Road, Tanjore (P)",141,62c295d52b962729a594f15f
+P77,Trichy,"Sundaram Hospital,No .17 EVR Road, Puthur, Trichy (P)",142,62c295d52b962729a594f160
+P78,Madurai,"Department of Laboratory Services,Ashwin FED Speciality Hospital,No29/64
+Kuruvikkaran Salai,1st Cross St, Anna Nagar,Madurai",143,62c295d52b962729a594f161
+P79,Virudhunagar,"Krishna MRI & CT, No-151, Old Padanthal Road, Sattur, Viruthunagar Dist",144,62c295d52b962729a594f162
+P80,Madurai,"Molecular   Diagnosis, A Unit   of Preethi Hospital Pvt Ltd,  No  50 Melur Main
+Road, Uthangudi, Madurai",145,62c295d52b962729a594f163
+P81,Dharampuri,"Healthcare Diagnostics Services,133/1/26A, Nethaji bypass Road, Ganesha
+Theatre opposite, Dharmapuri (P)",146,62c295d52b962729a594f164
+P82,Namakkal,"Thangam X-Rays and Computersied Clinical Laboratory, Thangam Hospital,
+54,Dr.Sankaran Road, Namakkal(P)",147,62c295d52b962729a594f165
+P83,Namakkal,"Samrutha Diagnostic,A group of velavanhospital,348/4 Salem Main
+Road,Thiruchengode, Namkkal(P)",148,62c295d52b962729a594f166
+P84,Coimbatore,"Metropolis Healthcare Ltd,1st Floor,Vincent Colony,RS Puram West,
+Coimbatore(P)",149,62c295d52b962729a594f167
+P85,Chengalpattu,"Tagore Medical College and Hospital,Chennai",150,62c295d52b962729a594f168
+P86,Chennai,"Sooriya Hospital Molecular Biology lab,No.1,  Arunachalam  Road,  Saligramam,
+Chennai",151,62c295d52b962729a594f169
+P87,Thanjavur,"VMH   Laboratories,   Unit   of   Vinodhagan Memorial Hospital (P)
+Ltd.,No:3120& 3121, Trichy Road, Thanjavur (P",152,62c295d52b962729a594f16a
+P88,Madurai,"Vadamalayan Hospitals-Laboratory, Vadamalayan hospitals Pvt Ltd., 9A, Vallabai road, Chokkikulam, Madurai",153,62c295d52b962729a594f16b
+P89,Madurai,"Bose Clinical Laboratory & Xrays, 131 Tamil Sangam Road, Madurai",154,62c295d52b962729a594f16c
+P90,Madurai,"Life Care Diagnostics, 11, Vaidhiyanatha Iyer 1st Street, Shenoy Nagar, Madurai",155,62c295d52b962729a594f16d
+P91,Ranipet,"Molecular lab, Apollo KH Hospital, part of KH foundation, Ranipet, Vellore Bye
+pass Road, Melvisharam",156,62c295d52b962729a594f16e
+P92,The Nilgris,"Gudalur Adivasi Hospital Unit of Association for Health Welfare in the Nilgiris (ASHWINI), 10/147, G2, G3, PO20, Kothervayal, Gudalur, The Nilgiris",157,62c295d52b962729a594f16f
+P93,Chengalpattu,"Biozone Diagnostics, 7, Kumaran Nagar, 200ft Radial Road, Zamin Pallavaram,
+Chennai.",158,62c295d52b962729a594f170
+P94,Salem,"Molecular Diagnostics Division, Dept. of Laboratory Medicine, Sri Gokulam Hospitals (P) Ltd Location II, 202, Bangalore By-pass Road, Salem",159,62c295d52b962729a594f171
+P95,Dindigul,"Quality Care Diagnostic Centre Pvt Ltd, No 6, Spencer Compound, Thiruvalluvar
+Salai, Near Bus Stand, Dindigul",160,62c295d52b962729a594f172
+P96,Madurai,"Raks diagnostic centre (Unit of Raks hospitals Pvt ltd), 24b, Soundarya Towers,
+Kuruvikaran Salai 2nd Street, Madurai (P)",161,62c295d52b962729a594f173
+P97,Tirunelveli,"Shifa Health Care, 441, H/8, Thiruchendur Road, Opp. Sri Lakshmi
+Mahal, Srinivasa Nagar, Tirunelveli (P)",162,62c295d52b962729a594f174
+P98,Vellore,"Sri Narayani Hospital and Research Centre, Sripuram, Thirumalaikodi, Vellore
+(P)",163,62c295d52b962729a594f175
+P99,Chennai,"Aarthi Diagnostics, (Appasamy Medical Centre Complex), No.23, Friends
+Avenue, Arumbakkam, Chennai.",164,62c295d52b962729a594f176
+P100,Salem,"ProGen Molecular Biology Lab, Acme ProGen Biotech (India) Private Limited, #260G, Ram Square, 2nd Floor, Advaitha Ashram Road, Balaji Nagar, Salem",165,62c295d52b962729a594f177
+P101,Salem,"Priya Lab, A Unit of Salem Heart Clinic,153, Rajaram Nagar, Tamil Sangam
+Road,Salem (P)",166,62c295d52b962729a594f178
+P102,Vellore,"Krishna MRI & CT, No-27, Thenamaram Street, Kosapet, Vellore",167,62c295d52b962729a594f179
+P103,Chennai,"Proscan Diagnostics Pvt Ltd, 339/340 Annasalai , Nandanam , Chennai",168,62c295d52b962729a594f17a
+P104,Chennai,"Radolabs Pvt Ltd, No: 176 – A, Defense Colony, Nandambakkam, Chennai",169,62c295d52b962729a594f17b
+P105,Salem,"Molecular Research Laboratory, Annapoorna Medical College, NH – 47 Sankari Main Road, Kombadipatti Village, Veerapandi Union, Salem (P)",170,62c295d52b962729a594f17c
+P106,Coimbatore,"Bioline Lab, 8/9-2, Sathy Main Road, Opp to Ramakrishna Mill, Ganapathy, Coimbatore",171,62c295d52b962729a594f17d
+P107,Pudukottai,"Muthu Meenakshi Hospitals, No. 5542, South 4th Street, Pudukkottai (P)",172,62c295d52b962729a594f17e
+P108,Kanyakumari,"Sree Mookambika Institute of Medical Sciences - Central Lab, Door No.14-9c, 15, Velayuthan Pillai Memorial Hospital Complex, Padanilam, Kulasekharam, Kanyakumari",173,62c295d52b962729a594f17f
+P109,Tirunelveli,"Microbiological Laboratory, Lakshmi Commercial Bazaar, 1st Floor, No-01, North High Ground Road, Palayamkottai, Tirunelveli",174,62c295d52b962729a594f180
+P110,Chennai,"Department of Laboratory Services, Vijaya Medical and Educational Trust,
+No.434 (Old No.180), N.S.K Salai, Chennai",175,62c295d52b962729a594f181
+P111,Chennai,"Techmed Healthcare &Diagnostic Pvt Ltd, 320 A/47 A, Velachery Main
+Road,VelaChery, Chennai",176,62c295d52b962729a594f182
+P112,Salem,"Vinayaka Mission's Kirupananda Variyar Medical College & Hospitals, NH-47, Sankari Main Road, Chinnaseeragapadi, Salem",177,62c295d52b962729a594f183
+P113,Chengalpattu,"Orbito Asia Diagnostics, No: 54/9, Paul Wells Road, Sripuram Colony, Chennai",178,62c295d52b962729a594f184
+P114,Trichy,"Rockcity Diagnostic Centre Private Limited, D-13, ABSA Building, 7th Cross (East), Thillai Nagar, Trichy",179,62c295d52b962729a594f185
+P115,Salem,"Bioline Laboratory C/O SKS Hospital India Pvt. Ltd., #23, SKS Hospital Road, Alagapuram, Salem",180,62c295d52b962729a594f186
+P116,Chengalpattu,"Bhaarath Medical College and Hospital, No.173, Agharam Main Road,
+Tambaram, Chengalpattu",181,62c295d52b962729a594f187
+P117,Chennai,"Hicare Lab (A Unit of Hicare Lab Pvt. Ltd.), No: 01, Surendra Nagar, 3rd Street,
+Medavakkam Main Road, Adambakkam, Chennai",182,62c295d52b962729a594f188
+P118,Coimbatore,"Ganga Laboratory, Unit of Ganga Medical Centre and Hospitals Pvt Ltd, 313, Mettupalayam Road, Coimbatore (P)",183,62c295d52b962729a594f189
+P119,Trichy,"Laboratory Services, Sri Kumaran Hospital, 50/9 Viralimalai Road,
+Manapparai, Trichy (P)",184,62c295d52b962729a594f18a
+P120,Chennai,"Apollo Health and Lifestyle Ltd- Kottrupuram, Diagnostics Laboratory,
+No:15/42, Gandhi Mandapam Road, Kottrupuram, Chennai",185,62c295d52b962729a594f18b
+P121,Coimbatore,"KG Hospitals Laboratory Services, K. Govindaswamy Naidu Medical Trust, No. 5, Government Arts College Road, Coimbatore",186,62c295d52b962729a594f18c
+P122,Kancheepuram,"Sri Muthukumaran Medical College Hospital and Research Institute, Department of Microbiology, Division of Virology, Chikkarayapuram, Chennai",187,62c295d52b962729a594f18d
+P70,Kallakurichi,"Sri Samraj Labs, 149/1, Thiyagadurgam Road, Kallakurichi",188,62c295d52b962729a594f18e
+P123,Chengalpattu,"SRM Medical College Hospital and Research Centre, Central Laboratory,
+Department of Microbiology, SRM Nagar, Potheri, Kattankulathur, Chengalpattu,",189,62c295d52b962729a594f18f
+P124,Chennai,"Ganga Diagnostic Care, No. 154, Bazaar road, Collector Nagar, Anna Nagar
+West extension, Chennai",190,62c295d52b962729a594f190
+P126,Thiruvallur,"Department of Molecular Biology, A.C.S. Medical College and Hospital, Chennai
+Bangalore National Highway, Chennai",191,62c295d52b962729a594f191
+P127,Krishnagiri,"Genelife Molecular Laboratory (A Unit of Vijay Sai Health Care Hosur Private Limited), #76R, Diagnostic Block, Vijay Hospital, Old Bangalore Road, Hosur, Krishnagiri",192,62c295d52b962729a594f192
+P128,Kancheepuram,"Molecular Virology Lab, Central Lab, Madha Medical College and Hospital, Thandalam, Kovur, Chennai, Kanchipuram",193,62c295d52b962729a594f193
+P129,Dindigul,"Life Pixcell Laboratory, 11, Vel Nagar, Goundar Itteri Road, Palani, Dindigul",194,62c295d52b962729a594f194
+P130,Namakkal,"Soorya diagnostics (A unit of Soorya Multispeciality Hospital), 164, Bunglow Street, Tiruchengode, Namakkal (P)",195,62c295d52b962729a594f195
+P131,Coimbatore,"Molecular Lab, Karpagam Hospital (A unit of Karpagam Charity Trust),
+Othakalmandapam, Coimbatore",196,62c295d52b962729a594f196
+P132,Chennai,"Macro Diagnostic Lab Pvt. Ltd., New No: 241, Old No: 117, Ramakrishna Mutt Road, RA Puram, Chennai (P)",197,62c295d52b962729a594f197
+P133,Tirunelveli,"Muthamil Hospital Molecular Lab, Muthamil Hospital, # 59, Trivandrum Road, Palayamkottai, Tirunelveli (P)",198,62c295d52b962729a594f198
+P134,Madurai,"Hitech Diagnostic Centre, (a Unit of Dr.Ganesan's Hitech Diagnostic Centre Pvt Ltd.,), No : 9, Abdul Kabarkhan Road, Chinna Chokkikulam, Madurai",199,62c295d52b962729a594f199
+P135,Thiruppur,"Clinical Laboratory, Revathi Medical Center Tirupur India (P) Ltd, No 10, Valayangadu Main Road, Kumar Nagar (West), Avinashi Road, Tirupur (P)",200,62c295d52b962729a594f19a
+P136,Chennai,"SRL Diagnostics Limited, Sreerosh Renaissance, New No-52, Old No-76, New
+Avadi Road, Kilpauk, Chennai",201,62c295d52b962729a594f19b
+P137,Thiruvallur,"Molecular Virology Lab, Indira Medical College and Hospitals, A Unit of Indira
+Educational and Charitable Trust, No 1, VGR Gardens, VGR Nagar, Pandur, Tiruvallur",202,62c295d52b962729a594f19c
+P138,Thiruppur,"Maitocon Laboratory, No 33, Town Extension, First Street, Tirupur",203,62c295d52b962729a594f19d
+P131A,Coimbatore,"Molecular Lab, Karpagam Hospital, Pollanchi Main Road, Coimbatore",204,62c295d52b962729a594f19e
+P139,Erode,"Clinical Laboratory - Abhi S. K. Hospital, Private Limited, 153, Sathy Main Road,
+Nallagoundenpalayam, Gobichettipalayam, Erode (P)",205,62c295d52b962729a594f19f
+P140,Chennai,"Dr. Lal Pathlabs Ltd, 2nd floor, KKR ENT Hospital and Research Building, #6
+OMR Road, Karappakam, Chennai",206,62c295d52b962729a594f1a0
+P141,Salem,"Krishna MRI & CT, No-1/1, P.S. Square,Ground Floor, SKS Hospital Road, Salem
+Dist (P)",207,62c295d52b962729a594f1a1
+P142,Chennai,"Standard Preventive Medicorp Services LLP Laboratory Services, #46 VGP
+Rajesh Nagar Narayanapuram Pallikaranai, Chennai",208,62c295d52b962729a594f1a2
+P143,Trichy,"Molecular Biology Lab, Sri Venkateswara Hospitals, No: 22, Trichy-Chennai
+Trunk Road, TV.Kovil, Trichy.",209,62c295d52b962729a594f1a3
+P144,Thanjavur,"KG Multi Speciality Hospital and Research Centre (Molecular Diagnostics),
+3048, 3049, 2nd Street, V.O.C. Nagar, Thanjavur.",210,62c295d52b962729a594f1a4
+P145,Chengalpattu,"MEDILABS, No 15, Kannan Avenue, New Balaji Nagar Main Road, Selaiyur, Near
+Camp Road Junction, East Tambaram, Chennai.",211,62c295d52b962729a594f1a5
+P146,Chennai,"Laboratory services, Immunogene Healthcare Pvt Ltd, C1, The Bajaj Manor, 14A, College Road, Thousand Lights West, Chennai",212,62c295d52b962729a594f1a6
+P147,Coimbatore,"Swastik Diagnostic Center, No:1770 - 1& 2, Vennila Homeo Hospital, Trichy
+Road, Olymbus, Ramanathapuram, Coimbatore.",213,62c295d52b962729a594f1a7
+P148,Chennai,"Molecular Laboratory, The Childs TrustMedical Research Foundation, 12 A, Nageswara Road, Nungambakkam, Chennai.",214,62c295d52b962729a594f1a8
+P149,Chennai,"AL Haramain Diagnostic Centre, Old No. 191 New No. 251 1ST Floor, Annasalai,
+Chennai",215,62c295d52b962729a594f1a9
+P150,Chengalpattu,"Center For Molecular Unitary Diagnostics Research and Advancements-Shri Sathya Sai Medical College and Research Institute, Ammapettai, Kanchipuram.",216,62c295d52b962729a594f1aa
+P151,Thoothukudi,"Kamala scans & Labs, (Unit of Kamala Speciality Hospitals P Ltd.,), 55,
+Santhaipettai Street, Kovilpatti (P)",217,62c295d52b962729a594f1ab
+P152,Krishnagiri,"Micro Diagnostics, # 47, Pasumai Nagar, Opp Samthuvapuram , Bagalur Road,
+Hosur, Krishnagiri",218,62c295d52b962729a594f1ac
+P153,Thiruppur,"Tamilnadu X-Ray and Micro Lab, Kooturavu Nagar, Thirumurugan Poondi, Tirupur",219,62c295d52b962729a594f1ad
+P154,Dharampuri,"Hi-Tech Diagnostic Centre, 14B, Nethaji ByPass Road, Dharmapuri (P)",220,62c295d52b962729a594f1ae
+P155,Chennai,"Chennai RajMedicare Lab Pvt Ltd. New No.45, Old No. 22, 1st Main Road, CIT Nagar, Nandanam, Chennai",221,62c295d52b962729a594f1af
+P156,Tirunelveli,"Bharat speciality labs, Unit of Bharat scans, 11, North by Pass Road,
+Vanarapettai, Tirunelveli",222,62c295d52b962729a594f1b0
+P157,Krishnagiri,"Global Calcium Diagnostic Services, 125 & 126, Sipcot Industrial Complex,
+Phase – I, Hosur",223,62c295d52b962729a594f1b1
+P158,Coimbatore,"Gem laboratory – A unit of Gem Hospital & Research Centre Pvt., Ltd, 45A
+Pankaja Mill Road, Ramanathapuram, Coimbatore",224,62c295d52b962729a594f1b2
+P159,Erode,"Jansons MRI Diagnostic P. Ltd, Perundurai Road, Erode",225,62c295d52b962729a594f1b3
+P160,Coimbatore,"Rivaara Labs Pvt. Ltd., C/o K.G.M. Hospital, No.1/1, Avinashi Road,
+Chinniampalayam, Coimbatore",226,62c295d52b962729a594f1b4
+P161,Salem,"Shanmuga Hospital Private limited, Molecular diagnostic Laboratory, No-24,
+Saradha College Road, Salem",227,62c295d52b962729a594f1b5
+P162,Theni,"Honey Bee PCR Lab ,15A/W9, Koduvilarpatti Main Road, Opp. Bharath Petrol
+Bunk, Aranmanaiputhur, Theni",228,62c295d52b962729a594f1b6
+P163,Erode,"Deepaa Micro Lab, 8, 8/1, 8/2 Pavadai Street, Erode",229,62c295d52b962729a594f1b7
+P164,Trichy,"Molecular Biology Lab - Krishna College of Paramedical and Allied Health
+Science, Kottaimedu, Samayapuram,Thiruchirapalli",230,62c295d52b962729a594f1b8
+P165,Karur,"Nanolab Diagnostic & Biomedical Research Center, 1/1, Sri Malayamman Complex, 3rdStreet, Valluvar Nagar South, Karur",231,62c295d52b962729a594f1b9
+P166,Chennai,"Medivision Scan & Diagnostic Research Centre Pvt Ltd, Chennai, No.180/84, First Floor, Mount-Poonammalle High Road, Porur, Chennai",232,62c295d52b962729a594f1ba
+P167,Chennai,"Gem laboratory – A unit of Gem Hospital & Research Centre Pvt., Ltd, MGR
+Salai, Perungudi, Chennai (P)",233,62c295d52b962729a594f1bb
+P168,Coimbatore,"Arthi CT and MRI Scans , Obli towers - 594,D.B. Road, R.S.Puram, Coimbatore",234,62c295d52b962729a594f1bc
+P169,Chennai,"Regenix Super Speciality Laboratories Pvt. Ltd, Jamal’s Sonu Terrace, #42,
+Loganathan Nagar,100 feet Road, Choolaimedu, Chennai",235,62c295d52b962729a594f1bd
+P170,Trichy,"Molecular Biology Lab, Dr. G.Viswanathan Speciality Hospitals, No: 27, Babu Road, Trichy (P)",236,62c295d52b962729a594f1be
+P171,Trichy,"Krishna MRI & CT, D 73, Saraswathi Complex, 7th Cross Street, Thillai Nagar,
+Trichy",237,62c295d52b962729a594f1bf
+P172,Chengalpattu,"Clinical Laboratory Services, Gleneagles Global Health City,439, Cheran Nagar,
+Perumbakkam, Chennai",238,62c295d52b962729a594f1c0
+P173,Coimbatore,"Division of Molecular and Advanced Diagnostics, Department of Laboratory Medicine, G.Kuppuswamy Naidu Memorial Hospital, P.B No.6327, Nethaji Road, Pappanaickenpalayam, Coimbatore",239,62c295d52b962729a594f1c1
+P174,Chengalpattu,"Genoseq Diagnostics (A Unit of Genoseqdx), Plot No 3, Second Floor,
+Nisha Towers, Loganathan Nagar, Mannivakkam, Chennai",240,62c295d52b962729a594f1c2
+P175,Chennai,"Rivaara Labs Pvt. Ltd., C/O B-Block,Second Floor, Building no 2, Plot No. 2, Mehta Multispecialty Hospitals India Private Ltd, Mc Nichols Road, Second Street, Chetpet, Chennai",241,62c295d52b962729a594f1c3
+P176,Coimbatore,"Agaram Diagnostics, 649, Sathy Road, Gandhi Puram, (Next to GP Hospital), Coimbatore",242,62c295d52b962729a594f1c4
+P177,Trichy,"Medline Diagnostics Pvt Limited, 23 A, Tennur Road, Trichy",243,62c295d52b962729a594f1c5
+P178,Chengalpattu,"Hindlabs Chennai (A unit of HLL Lifecare Limited), Chennai International
+Airport, terminal T-3, Near Arrival Area, Chennai (P)",244,62c295d52b962729a594f1c6
+P179,Karur,"ABS Hospital 161, 5/b Sivasakthi Nagar Thanthonimalai Karur",245,62c295d52b962729a594f1c7
+P180,Salem,"Neuberg Ehrlich Laboratory Private Limited, C/o KMC Specialty Hospital (India) Ltd., No:9/50, Trichy Main Road, Seelanaickanpatty, Salem.",246,62c295d52b962729a594f1c8
+P181,Thiruvallur,"Elango Diagnostics, No. 38/16, Kotisvaran Nagar, Krishnapuram Village,
+Ponneri, Thiruvallur",247,62c295d52b962729a594f1c9
+P182,Madurai,"Accurex Diagnostics, No 521, Ragini, 11 East Cross Street, Anna Nagar,Madurai",248,62c295d52b962729a594f1ca
+P183,Coimbatore,"NG Hospital Private Limited Molecular Lab, No: 577, Trichy Road,Singanallur, Coimbatore",249,62c295d52b962729a594f1cb
+P184,Salem,"Karthic Medical Centre, No:5/148-A, Chinnanachiyur, Veerappampalayam (po), Idappadi (Tk), Salem (P)",250,62c295d52b962729a594f1cc
+P185,Coimbatore,"Clinical Laboratory - Kongunad Hospitals Pvt Ltd, 62,63,64, 11th Street,
+Coimbatore",251,62c295d52b962729a594f1cd
+P186,Madurai,"Vivek Laboratories, Guru Hospital, No.4/120F, Pandikovil, Ring Road,
+Mattuthavani, Madurai",252,62c295d52b962729a594f1ce
+P187,Vellore,"Department of Microbiology and Immunology, Naruvi Hospitals, A unit of SANCO Foundation, 72 1B2, Collectors Office Road, Bangalore - Chennai National Highway NH 48, Vellore",253,62c295d52b962729a594f1cf
+P188,Kanyakumari,"Hitech Advanced Laboratory, 678, MMAK Building, KP Road, Nagcrcoil,
+Kanyakumari Dist",254,62c295d52b962729a594f1d0
+P189,Kancheepuram,"Premier Health Center, 86-B Kamarajar Salai, Kanchipuram",255,62c295d52b962729a594f1d1
+P190,Madurai,"Primegen Healthcare Laboratories Pvt. Ltd., Al Waaris Avenue, No 151, 1st
+Floor, East 5th Street, A.R. Hospital Road, K.K. Nagar, Madurai",256,62c295d52b962729a594f1d2
+P191,Chengalpattu,"Accuelite Diagnostics, 50 Ayappa Nagar, Nellikuppam Main Road,
+Kayarambedu, Guduvanchery, Chennai",257,62c295d52b962729a594f1d3
+P192,Thiruppur,"Orbito Asia Diagnostics, No: 246/645-646, Kamaraj Road, Tirupur, Tamilnadu",258,62c295d52b962729a594f1d4
+P193,Salem,"Kurinji Super Specilities Hospital, Clinical Laboratory No:4/11/1 Dr. T.J. Salai, Five roads, Salem (P)",259,62c295d52b962729a594f1d5
+P194,Chennai,"Neugen Diagnostics & Healthcare, 74& 75 AGS Tower, 100 Feet Road,
+Velachery, Chennai",260,62c295d52b962729a594f1d6
+P195,Krishnagiri,"€Anderson Diagnostics & Labs, Udhanapalli Village, Royakkottai Road, Hosur,
+Krishnagiri",261,62c295d52b962729a594f1d7
+P59,Chennai,"Huma Specialists Hospital & Research Centre Pvt. Ltd., No: 786, Anna Salai,
+Nandanam, Chennai",262,62c295d52b962729a594f1d8
+,,,,62c2ba457a5858a23ee1e795

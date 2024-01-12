@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Create PharmarcyList</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="meddypharmaForm" (ngSubmit)="onSubmit()">
+      <ion-item>
+        <ion-label position="floating">STOCKISTS NAME</ion-label>
+        <ion-input formControlName="name" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">ADDRESS</ion-label>
+        <ion-input formControlName="address" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">DISTRICT</ion-label>
+        <ion-input formControlName="district" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">CONTACT NUMBER</ion-label>
+        <ion-input formControlName="contact" type="number" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">EMAIL ID</ion-label>
+        <ion-input formControlName="email" type="string" required> </ion-input>
+      </ion-item>
+
+     <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="success" expand="block">create</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>

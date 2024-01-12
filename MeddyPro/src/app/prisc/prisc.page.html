@@ -1,0 +1,43 @@
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Priscription Details</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div class="ion-padding">
+      <!-- Theme classes dark, material, bootstrap -->
+      <div class="card mb-5">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-8">
+              <input
+                #search
+                id="search"
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+        </div>
+  
+      
+        <ngx-datatable class="material"  
+          [columns]="columns"
+          [rows]="rows"
+          [columnMode]="'force'"
+          [headerHeight]="35"
+          [sortType]="'multi'"
+          [rowHeight]="'auto'"
+          [footerHeight]="50"
+          [limit]="5"
+        > 
+        </ngx-datatable>
+      
+      </div>
+    </div>
+  </ion-content>
+

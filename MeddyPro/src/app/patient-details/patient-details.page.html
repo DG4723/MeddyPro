@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/list" color="secondary"></ion-back-button>
+    <ion-title>Patient-Details</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let meddypatient of MeddyPatients">
+    <ion-label>
+      <h2 id="title">DOCTOR PRESCRIPTION</h2><br>
+      <h2>{{meddypatient.name}}</h2>
+      <h3>{{meddypatient.age}}</h3>
+      <h3>{{meddypatient.gender}}</h3>
+      <h3>{{meddypatient.address}}</h3>
+      <h3>{{meddypatient.contact}}</h3>
+      <h3>{{meddypatient.time}}</h3>
+      <h3>{{meddypatient.date}}</h3><br>
+      <h2 id="title">Rx:</h2><br>
+      <h2>{{meddypatient.mname}},{{meddypatient.strength}}</h2>
+      <h3></h3>
+    </ion-label>
+  </ion-item>
+  <ion-row>
+    <ion-col>
+      <ion-button type="submit" color="secondary" expand="block" routerLink="/payment">Pay Now</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>

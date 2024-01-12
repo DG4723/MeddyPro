@@ -1,0 +1,29 @@
+.toolbar{
+    height: 70px;
+    --background: #42c3fad3;
+    color: #fff;
+    font-size: 20px;
+    line-height: 84px;
+  }
+
+  .suba{
+    --background: #6d54ec89;
+  
+  }
+
+  .image--size {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ ion-card {
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.189);
+  margin: auto;
+}
+
+.vip {
+  --background: rgba(229, 116, 249, 0.397);
+  --background: url(../../assets/med.jpg) no-repeat center/cover fixed;
+}

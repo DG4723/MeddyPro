@@ -1,0 +1,47 @@
+ 
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+   <ion-buttons>
+     <ion-back-button defaultHref="/general"></ion-back-button>
+   
+   <ion-title>Appoinment</ion-title>
+   
+
+  
+  </ion-buttons>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <h1><center>Make Appoinment</center></h1>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">gender</ion-label>
+      <ion-input type="text" required>
+      
+      </ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">age</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Appoiment date</ion-label><br><br>
+      <ion-input type="date" required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        
+          <ion-button type="submit" color="primary" expand="block">submit</ion-button>
+          
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>

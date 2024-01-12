@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" color="secondary"></ion-back-button>
+      <ion-title>General Physician</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-searchbar type="text" class="form-control" placeholder="Search..." [(ngModel)]="filterTerm"></ion-searchbar>
+
+  <ion-list>
+    <ion-card>
+      <ion-item *ngFor="let docreg of docregs  | filter: filterTerm">
+        <ion-card-header id="img"><img [src]="docreg.imgurl || '' "></ion-card-header>
+        <ion-label>
+          <h2>Name :{{docreg.name}}</h2>
+          <h3>Age :{{docreg.age}}</h3>
+          <h3>Gender :{{docreg.gender}}</h3>
+          <h3>Mobile NO :{{docreg.mobileno}}</h3>
+          <h3>Address :{{docreg.city}}, {{docreg.state}}</h3>
+
+
+        </ion-label>
+
+        <ion-button type="submit" color="secondary" expand="block" [routerLink]="['/view/'+docreg._id]">Book
+          Now</ion-button>
+
+
+      </ion-item>
+    </ion-card>
+  </ion-list>
+</ion-content>

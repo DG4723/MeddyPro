@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar id="toolbar">
+  <ion-buttons>
+      <ion-back-button defaultHref="/babypro"style="color: black;"></ion-back-button>
+    <ion-title style="color: black;">Payment</ion-title>
+  </ion-buttons>
+     <ion-button id="button" size="small" slot="end" [routerLink]="['/tabs/tab2']">
+      Home <ion-icon name="home"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+  <img src="./assets/gokila/pay.jpg" class="img-responsive " id="img1">
+  <ion-col size="12">
+  <ion-button  (click)="upi()" id="pay">
+      Pay Via
+        </ion-button>
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+  <h3>Select Payment Options</h3>
+  <ion-grid>
+    <ion-row>
+      <ion-col >
+        <ion-card class="card1">
+          <img src="./assets/card-icon.png">
+          <h1>Card</h1>
+
+        </ion-card>
+        <ion-card class="card2" href="/upi">
+          <img src="./assets/uip-icon.png">
+          <h1>UPI</h1>
+        </ion-card>
+        <ion-card class="card1">
+          <img src="./assets/wallet-icon.png">
+          <h1>Wallets</h1>
+        </ion-card>
+        <ion-card class="card1">
+          <img src="./assets/bank-icon.png">
+          <h1>Net Banking</h1>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

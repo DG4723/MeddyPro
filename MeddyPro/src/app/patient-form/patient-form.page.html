@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs\tab1" color="secondary"></ion-back-button>
+    <ion-title>Patient Form</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="meddypatientForm" (ngSubmit)="onSubmit()">
+
+      <h4 id="add">PATIENT DETAILS</h4>
+      <ion-item>
+        <ion-label position="floating">Patient Name</ion-label>
+        <ion-input formControlName="name" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Age</ion-label>
+        <ion-input formControlName="age" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Gender</ion-label>
+        <ion-input formControlName="gender" type="text" required>
+        </ion-input>
+        <div>
+          <input  id="male" type="radio" value="Male" color="secondary" name="gender"
+           formControlName="gender" />
+          <label id="male" class="custom-control-label" for="male">Male</label>
+        </div>
+        <div>
+          <input  id="female" type="radio" color="secondary" value="Female" name="gender"
+           formControlName="gender" />
+          <label id="female" class="custom-control-label" for="female">Female</label>
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-input formControlName="address" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contact No</ion-label>
+        <ion-input formControlName="contact" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Complaint</ion-label>
+        <ion-input formControlName="complaint" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <h4 id="add">ADD MEDICINE</h4>
+
+      <ion-item>
+        <ion-label position="floating">Medicine Name</ion-label>
+        <ion-textarea formControlName="mname" type="text" required></ion-textarea>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Strength</ion-label>
+        <ion-textarea formControlName="strength" type="text" required>
+        </ion-textarea>
+      </ion-item>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="secondary" expand="block" >ADD MEDICANE</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,57 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/security" method="POST" autocomplete="off">
+
+    <input type="hidden" name="_id" value="{{security._id}}">
+
+    <div class="form-group">
+
+        <label>Date</label>
+
+        <input type="text" class="form-control" name="Date" placeholder="Date" value="{{security.Date}}">
+
+    </div>
+
+      <div class="form-group">
+
+        <label>Open</label>
+
+        <input type="text" class="form-control" name="Open" placeholder="Open" value="{{security.Open}}">
+
+    </div>
+
+    <div class="form-group">
+         <label>High</label>
+
+        <input type="text" class="form-control" name="High" placeholder="High" value="{{security.High}}">
+
+    </div>
+
+    <div class="form-row">
+
+        <div class="form-group col-md-6">
+
+            <label>Low</label>
+
+            <input type="text" class="form-control" name="Low" placeholder="Low" value="{{security.Low}}">
+
+        </div>
+
+        <div class="form-group col-md-6">
+
+            <label>Close</label>
+            <input type="text" class="form-control" name="Close" placeholder="Close" value="{{security.Close}}">
+
+        </div>
+
+    </div>
+
+    <div class="form-group">
+
+        <button type="submit" class="btn btn-info">Submit</button>
+
+        <a class="btn btn-secondary" href="/security/list">View All</a>
+
+    </div>
+
+</form>

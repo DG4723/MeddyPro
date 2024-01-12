@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="tool">
+    <ion-buttons>
+      <ion-back-button defaultHref="tabs/tab2" style="color:white"></ion-back-button>
+    <ion-title style="color:white">Health Products</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button color="success" (click)="openCart()" #cart>
+      <div class="cart-length">{{ cartItemCount | async }}</div>
+      <ion-icon name="cart" class="cart-icon"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+    <ion-list >
+      <ion-card *ngFor="let p of hps" class="venk">
+
+        <ion-card-header>
+          <ion-card-title>{{ p.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-subtitle><img [src]="p.imgurl || '' "></ion-card-subtitle>
+
+          <ion-row class="ion-align-items-center">
+            <ion-col size="8">
+              <ion-label color="success">
+
+                <b>{{p.qty}}</b><br>
+                <b>{{ p.price| currency: 'INR' }}</b><br>
+              </ion-label>
+            </ion-col>
+            <ion-col size="4" class="ion-text-right">
+              <ion-button color="success" size="small" (click)="addToCart(p)">
+                ADD TO CART
+                <ion-icon name="cart" slot="end"></ion-icon>
+              </ion-button>
+            </ion-col>
+           </ion-row>
+
+
+    </ion-card>
+  </ion-list>
+
+
+</ion-content>
+

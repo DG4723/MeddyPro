@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab2" style=color:white></ion-back-button>
+    <ion-title style=color:white>Pharmarcy List</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let meddypharma of meddypharmas">
+      <ion-label>
+        <h2 id="name">{{meddypharma.name}}</h2>
+        <h3>{{meddypharma.address}}</h3>
+        <h3>{{meddypharma.district}}</h3>
+        <h3>{{meddypharma.contact}}</h3>
+        <h3>{{meddypharma.email}}</h3>
+
+      </ion-label>
+
+      <ion-button type="submit" color="secondary" expand="block" href="/">Book Now</ion-button>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

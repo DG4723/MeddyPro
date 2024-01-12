@@ -1,0 +1,80 @@
+.toolbar{
+  --background:rgba(0, 0, 255, 0.644);
+  color: white;
+}
+p{
+  color: rgb(17, 4, 75);
+  margin-left: 10px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  color: rgb(17, 4, 75);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#btn{
+  border-radius: 20px;
+  background-color: orangered;
+  color: white;
+  font-size: medium;
+  margin-left: 180px;
+  margin-top: -65px;
+}
+ion-card{
+  height: 370px;
+  width: 330px;
+
+}
+
+ion-fab-button {
+  height: 70px;
+  width: 70px;
+}
+
+.cart-icon {
+  font-size: 50px;
+}
+
+.cart-length {
+  color: var(--ion-color-primary);
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  font-weight: 600;
+  font-size: 1em;
+  min-width: 25px;
+  z-index: 10;
+}
+#img{
+  height: 200px;
+  width:300px ;
+  margin-left: 20px;
+}
+#cart{
+  --background: rgb(78, 104, 250);
+ }
+#price{
+  font-size: large;
+  margin-left: 10px;
+}
+#name{
+  color:  rgb(78, 104, 250);
+  margin-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#button{
+  --background: rgb(78, 104, 250);
+  margin-right: 30px;
+}
+#toolbar{
+  --background: rgb(157, 211, 247);
+}
+#title{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#back{
+  color: white;
+}
+

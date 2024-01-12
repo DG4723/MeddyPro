@@ -1,0 +1,63 @@
+#button{
+    --background:rgba(19, 96, 168, 0.699);
+    margin-right: 30px;
+  }
+  #toolbar{
+    --background:rgba(76, 162, 243, 0.699);
+  }
+  #pay{
+    --background:rgba(19, 96, 168, 0.699);
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  #img1{
+    width: 100%;
+    height: auto;
+  }
+  ion-padding{
+    padding: 20px;
+    font-size:x-large;
+    color: #000;
+  }
+  #title{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h3{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .card1{
+    height: 100px;
+    width: 330px;
+  
+    img{
+      height: 100px;
+      width: 100px;
+    }
+  
+    h1{
+      margin-left: 120px;
+      margin-top: -70px;
+      color: #000;
+    }
+  }
+  .card2{
+    height: 100px;
+    width: 330px;
+  
+    img{
+      height: 80px;
+      width: 80px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    h1{
+      margin-left: 120px;
+      margin-top: -55px;
+      color: #000;
+    }
+  }
+  
+  

@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+      <ion-title>Appointment Form</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content t [fullscreen]="true" >
+  <ion-card>
+  <div class="mn">
+    
+    <h2>user form</h2>
+    <form [formGroup]="petform" (ngSubmit)="onSubmit()">
+   
+      
+        
+      
+      <ion-item >
+        <ion-label position="floating">Name</ion-label>
+        <ion-input formControlName="name" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Contact No</ion-label>
+        <ion-input style="font-size: 14px;" formControlName="contact" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-input formControlName="address" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item >
+        <ion-label position="floating">Pet</ion-label>
+        <ion-select formControlName="pet" label="pet" label-placement="floating" fill="solid">
+          <ion-select-option value="dog">Dog</ion-select-option>
+          <ion-select-option value="cat">Cat</ion-select-option>
+          <ion-select-option value="cow">Cow</ion-select-option>
+          <ion-select-option value="goat">Goat</ion-select-option>
+          <ion-select-option value="birds">Birds</ion-select-option>
+        </ion-select>
+      </ion-item>
+      
+    
+      <div class="center-align">
+        <h3>Select Appointment Schedule</h3>
+      </div>
+      
+           
+            <ion-item>
+              <h4>Appoinment Date</h4>
+              <ion-label position="floating"></ion-label>
+              <ion-input formControlName="date" type="date" required></ion-input>
+            </ion-item>
+    
+              <ion-item>
+                <h4>Appoinment Time</h4>
+                <ion-label for="timeSelect" position="floating"></ion-label>
+                <ion-select formControlName="time" id="timeSelect">
+                  <ion-select-option *ngFor="let timeOption of timeOptions" [value]="timeOption">{{ timeOption }}</ion-select-option>
+                </ion-select>
+
+              </ion-item>
+           
+         
+       
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" >Submit</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </form>
+</div>
+</ion-card>
+</ion-content>

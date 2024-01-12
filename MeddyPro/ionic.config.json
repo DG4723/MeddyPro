@@ -1,0 +1,8 @@
+{
+  "name": "MeddyPro",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,55 @@
+#female {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#male {
+    margin-right: 10px;
+}
+
+#add {
+    color: rgb(58, 152, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+
+}
+
+#human{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+ion-card {
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: white;
+  
+}
+
+ion-button {
+    margin-left: 50%;
+    color: black;
+    font-weight: bold;
+}
+
+ion-label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    /* Adjust the font size as needed */
+    --ion-background-color: rgba(144, 238, 144, 0.37);
+        /* Set your desired background color */
+}
+
+ion-content {
+    --ion-background-color: rgba(144, 238, 144, 0.37);
+    /* Set your desired background color */
+}
+
+.as{
+    --ion-background-color:white;
+        /* Set your desired background color */
+}
+
+/* Target specific items, like the Submit button */
