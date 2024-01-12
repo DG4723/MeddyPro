@@ -20,16 +20,18 @@ jobs:
 
       - name: Install Angular CLI and dependencies
         run: |
-          cd MeddyPro
           npm install -g @angular/cli
           npm install --legacy-peer-deps
           ng build 
 
+     
+       
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: node-app  # Use the same name here
-          path:  ./dist/MeddyPro
+          name: angular-app
+          path: ./www  # Use the correct output path from angular.json
 
   deploy:
     runs-on: ubuntu-latest
@@ -39,12 +41,13 @@ jobs:
     
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v2
         with:
-          name: node-app  # Use the same name here
+          name: angular-app
+          path: ./www  # Use the correct output path from angular.json
 
-      - name: Unzip artifact for deployment
-        run: unzip node-app.zip  # Use the correct artifact name
+      - name: List files in the www directory
+        run: ls -R ./www
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -52,5 +55,5 @@ jobs:
         with:
           app-name: 'MeddyPro'
           slot-name: 'Production'
-          package: .
+          package: ./www  # Use the correct output path from angular.json
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_858F4A14A2E744F285EC2BA350C09106 }}
