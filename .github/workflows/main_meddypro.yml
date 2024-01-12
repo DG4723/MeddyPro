@@ -23,6 +23,7 @@ jobs:
 
       - name: Install Angular CLI and dependencies
         run: |
+         cd MeddyPro
           npm install -g @angular/cli
           npm install --legacy-peer-deps
 
