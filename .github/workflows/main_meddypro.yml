@@ -25,14 +25,11 @@ jobs:
           npm install --legacy-peer-deps
           ng build 
 
-     
-       
-
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: angular-app
-          path:  ./meddyPro/www/meddypro 
+          path: ./meddyPro/www/meddypro 
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,7 +42,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: angular-app
-          path: ./www
+          path: ./meddyPro/www/meddypro 
 
       - name: List files in the www directory
         run: ls -R ./meddyPro/www/meddypro 
