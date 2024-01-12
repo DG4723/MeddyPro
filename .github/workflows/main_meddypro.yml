@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app  # Use the same name here
-          path: www/MeddyPro # Use the correct output path from angular.json
+          path:  ./www/MeddyPro
 
   deploy:
     runs-on: ubuntu-latest
