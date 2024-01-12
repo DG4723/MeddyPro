@@ -30,7 +30,7 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: angular-app
+          name: node-app  # Use the same name here
           path: ./www  # Use the correct output path from angular.json
 
   deploy:
@@ -43,11 +43,11 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
-          name: node-app
+          name: node-app  # Use the same name here
 
       - name: Unzip artifact for deployment
-        run: unzip release.zip
-      
+        run: unzip node-app.zip  # Use the correct artifact name
+
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
