@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: Install Angular CLI and dependencies
+      - name: Install Angular CLI and dependencie
         run: |
           cd MeddyPro
           npm install -g @angular/cli
