@@ -32,4 +32,4 @@ COPY --from=build /src/www .
 EXPOSE 80
 
 # Use the CMD instruction to specify the command to run when starting the container
-CMD ["ionic", "serve", "--host=0.0.0.0", "--disable-host-check", "--port=80"]
+CMD ["npm", "start"]
