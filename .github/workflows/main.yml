@@ -18,6 +18,12 @@ jobs:
       with:
         node-version: 18.x
 
+    - name: Debug Workflow
+      run: |
+        pwd
+        ls -l
+        ls -l MeddyPro
+
     - name: Install Dependencies
       run: npm install --legacy-peer-deps
 
